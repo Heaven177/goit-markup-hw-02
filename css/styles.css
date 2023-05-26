@@ -1,50 +1,62 @@
+:root {
+        --title-color:#2E2F42;
+        --text-color: #434455;
+        --background-btn-color: #404BBF;
+}
+
 body {
 font-family: "Roboto",sans-serif;
+background: #FFFFFF;
 
 }
-.header-link:hover,
-.header-link:focus {
+.header-link {
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #2E2F42;
-        
+        letter-spacing: 0.02em;    
+}
+.header-link:hover,
+.header-link:focus {
+        color:#2E2F42;
 }
 .hf-studio {
-        font-family:'Raleway';
+        font-family:'Raleway', sans-serif;
         font-style: normal;
         font-weight: 800;
         font-size: 18px;
         line-height: 21px;
 }
-.link-mail:hover,
-.link-mail:focus {
+.link-mail {
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
+}
+.link-mail:hover,
+.link-mail:focus {
         color: #434455;
+}
+.link-telephone {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
 }
 .link-telephone:hover,
 .link-telephone:focus {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
         color: #434455;
 }
-.btn-filter:hover, 
-.btn-filter:focus {
+.btn-filter {
         font-family: inherit;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
-        background: #404BBF;
-        border: 1px solid #E7E9FC;
-        border-radius: 4px;
         cursor: pointer;
+}
+.btn-filter:hover,
+.btn-filter:focus {
+        background-color: var(--background-btn-color);
 }
 .list {
         list-style: none;
@@ -57,13 +69,11 @@ font-family: "Roboto",sans-serif;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
-        color: #2E2F42;
+        color: var(--title-color);
 }
 .paragraph-services {
-
-        font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #434455;
+        color: var(--text-color);
 }
