@@ -39,6 +39,10 @@ color: var(--text-color);
         color: #404bbf;
 }
 
+.header-address {
+        font-style: normal;
+}
+
 .link-mail {
         font-style: normal;
         font-weight: 400;
@@ -66,9 +70,11 @@ color: var(--text-color);
 }
 
 
-
 /* ---------STUDIO BTN--------- */
 
+.hero {
+        background-color: var(--title-color);
+}
 .hero-title {
         background-color: var(--title-color);
         font-size: 56px;
