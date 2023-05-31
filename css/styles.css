@@ -43,7 +43,7 @@ color: var(--text-color);
         font-style: normal;
 }
 
-.link-mail {
+.link-address {
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
@@ -51,21 +51,8 @@ color: var(--text-color);
         letter-spacing: 0.02em;
         color: var(--text-color);
 }
-.link-mail:hover,
-.link-mail:focus {
-        color: #404bbf;
-}
-
-.link-telephone {
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: var(--text-color);
-}
-.link-telephone:hover,
-.link-telephone:focus {
+.link-address:hover,
+.link-address:focus {
         color: #404bbf;
 }
 
